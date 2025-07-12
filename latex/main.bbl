@@ -1,0 +1,1000 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global/global}
+  \entry{armenta2023anime}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=ASJ}{%
+         family={Armenta-Segura},
+         familyi={A\bibinithyphendelim S\bibinitperiod},
+         given={Jes{\'u}s},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sidorov},
+         familyi={S\bibinitperiod},
+         given={Grigori},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ASJSG1}
+    \strng{fullhash}{ASJSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Proceedings of Congreso Mexicano de Inteligencia
+  Artificial, COMIA}
+    \field{title}{Anime Success Prediction Based on Synopsis Using Traditional
+  Classifiers}
+    \field{year}{2023}
+  \endentry
+
+  \entry{bishop2006pattern}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=BCM}{%
+         family={Bishop},
+         familyi={B\bibinitperiod},
+         given={Christopher\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BCM1}
+    \strng{fullhash}{BCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Pattern Recognition and Machine Learning}
+    \field{year}{2006}
+  \endentry
+
+  \entry{breiman1997arcing}{report}{}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Breiman},
+         familyi={B\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Arcing the edge}
+    \list{institution}{1}{%
+      {Technical Report 486, Statistics Department, University of California
+  at~…}%
+    }
+    \field{type}{techreport}
+    \field{year}{1997}
+  \endentry
+
+  \entry{breiman_1984}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Breiman},
+         familyi={B\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wadsworth International Group}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Classification and regression trees}
+    \field{year}{1984}
+  \endentry
+
+  \entry{breiman2001random}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Breiman},
+         familyi={B\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{title}{Random forests}
+    \field{volume}{45}
+    \field{journaltitle}{Machine learning}
+    \field{year}{2001}
+  \endentry
+
+  \entry{ann_struct}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=BCM}{%
+         family={Burnett},
+         familyi={B\bibinitperiod},
+         given={Colin\bibnamedelima M.L.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BCM2}
+    \strng{fullhash}{BCM2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Artificial neural network}
+    \verb{url}
+    \verb https://commons.wikimedia.org/wiki/File:Artificial_neural_network.svg
+    \endverb
+    \field{year}{2006}
+  \endentry
+
+  \entry{chen2016xgboost}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=CT}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Tianqi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Guestrin},
+         familyi={G\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTGC1}
+    \strng{fullhash}{CTGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 22nd acm sigkdd international
+  conference on knowledge discovery and data mining}
+    \field{title}{Xgboost: A scalable tree boosting system}
+    \field{year}{2016}
+  \endentry
+
+  \entry{xgboost_model_tut}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=xd}{%
+         prefix={xgboost},
+         prefixi={x\bibinitperiod},
+         family={developers},
+         familyi={d\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sphinx}%
+    }
+    \strng{namehash}{dx1}
+    \strng{fullhash}{dx1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Introduction to Boosted Trees¶}
+    \verb{url}
+    \verb https://xgboost.readthedocs.io/en/latest/tutorials/model.html
+    \endverb
+    \field{journaltitle}{Introduction to Boosted Trees - xgboost 1.5.0-SNAPSHOT
+  documentation}
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{Dng2022}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=DTH}{%
+         family={Dương},
+         familyi={D\bibinitperiod},
+         given={Thị\bibnamedelima Hà},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=NTN}{%
+         family={Nguyễn},
+         familyi={N\bibinitperiod},
+         given={Thái\bibnamedelima Nghe},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Can Tho University}%
+    }
+    \strng{namehash}{DTHNTN1}
+    \strng{fullhash}{DTHNTN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.22144/ctu.jvn.2022.158
+    \endverb
+    \field{issn}{1859-2333}
+    \field{number}{4}
+    \field{pages}{8–16}
+    \field{title}{Ứng dụng m\^o hình đa biến bộ nhớ dài - ngắn
+  hạn trong dự báo nhiệt độ và lượng mưa}
+    \verb{url}
+    \verb http://dx.doi.org/10.22144/ctu.jvn.2022.158
+    \endverb
+    \field{volume}{58}
+    \field{journaltitle}{Can Tho University Journal of Science}
+    \field{month}{08}
+    \field{year}{2022}
+  \endentry
+
+  \entry{efron1992bootstrap}{incollection}{}{}
+    \name{author}{1}{}{%
+      {{hash=EB}{%
+         family={Efron},
+         familyi={E\bibinitperiod},
+         given={Bradley},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{EB1}
+    \strng{fullhash}{EB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{booktitle}{Breakthroughs in statistics}
+    \field{title}{Bootstrap methods: another look at the jackknife}
+    \field{year}{1992}
+  \endentry
+
+  \entry{freund1999short}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=FY}{%
+         family={Freund},
+         familyi={F\bibinitperiod},
+         given={Yoav},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schapire},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Abe},
+         familyi={A\bibinitperiod},
+         given={Naoki},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JAPANESE SOC ARTIFICIAL INTELL}%
+    }
+    \strng{namehash}{FYSRAN1}
+    \strng{fullhash}{FYSRAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{771-780}
+    \field{pages}{1612}
+    \field{title}{A short introduction to boosting}
+    \field{volume}{14}
+    \field{journaltitle}{Journal-Japanese Society For Artificial Intelligence}
+    \field{year}{1999}
+  \endentry
+
+  \entry{freund1997decision}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=FY}{%
+         family={Freund},
+         familyi={F\bibinitperiod},
+         given={Yoav},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SRE}{%
+         family={Schapire},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FYSRE1}
+    \strng{fullhash}{FYSRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{1}
+    \field{pages}{119\bibrangedash 139}
+    \field{title}{A decision-theoretic generalization of on-line learning and
+  an application to boosting}
+    \field{volume}{55}
+    \field{journaltitle}{Journal of computer and system sciences}
+    \field{year}{1997}
+  \endentry
+
+  \entry{friedman2001greedy}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=FJH}{%
+         family={Friedman},
+         familyi={F\bibinitperiod},
+         given={Jerome\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{FJH1}
+    \strng{fullhash}{FJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{pages}{1189\bibrangedash 1232}
+    \field{title}{Greedy function approximation: a gradient boosting machine}
+    \field{journaltitle}{Annals of statistics}
+    \field{year}{2001}
+  \endentry
+
+  \entry{friedman2002stochastic}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=FJH}{%
+         family={Friedman},
+         familyi={F\bibinitperiod},
+         given={Jerome\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FJH1}
+    \strng{fullhash}{FJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{4}
+    \field{pages}{367\bibrangedash 378}
+    \field{title}{Stochastic gradient boosting}
+    \field{volume}{38}
+    \field{journaltitle}{Computational statistics \& data analysis}
+    \field{year}{2002}
+  \endentry
+
+  \entry{gb_graph}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=HW}{%
+         family={Huel},
+         familyi={H\bibinitperiod},
+         given={Wanda},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HW1}
+    \strng{fullhash}{HW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Gradient Boosting Trees for Classification: A Beginner’s
+  Guide}
+    \verb{url}
+    \verb https://morioh.com/p/e108a4521555
+    \endverb
+  \endentry
+
+  \entry{rnn_unfold}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={Ixnay},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Recurrent neural network unfold}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/File:Recurrent_neural_network_unfold.sv
+    \verb g
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{kapilavayi}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=KC}{%
+         family={Kapilavayi},
+         familyi={K\bibinitperiod},
+         given={CRakesh},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KC1}
+    \strng{fullhash}{KC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+  \field{howpublished}{\url{https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data/data}}
+    \field{note}{Kaggle}
+    \field{title}{Extrovert vs. Introvert Behavior Data}
+    \field{year}{2025}
+  \endentry
+
+  \entry{martins2021early}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=MMV}{%
+         family={Martins},
+         familyi={M\bibinitperiod},
+         given={M{\'o}nica\bibnamedelima V},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tolledo},
+         familyi={T\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Machado},
+         familyi={M\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BLM}{%
+         family={Baptista},
+         familyi={B\bibinitperiod},
+         given={Lu{\'\i}s\bibnamedelima MT},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RV}{%
+         family={Realinho},
+         familyi={R\bibinitperiod},
+         given={Valentim},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MMV+1}
+    \strng{fullhash}{MMVTDMJBLMRV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Trends and Applications in Information Systems and
+  Technologies: Volume 1 9}
+    \field{pages}{166\bibrangedash 175}
+    \field{title}{Early prediction of student’s performance in higher
+  education: A case study}
+    \field{year}{2021}
+  \endentry
+
+  \entry{2023}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=NVT}{%
+         family={Nguyễn},
+         familyi={N\bibinitperiod},
+         given={Văn\bibnamedelima Thủy},
+         giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Banking Academy of Vietnam}%
+    }
+    \strng{namehash}{NVT1}
+    \strng{fullhash}{NVT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.59276/tckhdt.2023.08.2506
+    \endverb
+    \field{issn}{1859-011X}
+    \field{number}{255}
+    \field{pages}{52–64}
+    \field{title}{Using Machine Learning models to predict the on-time
+  graduation status of students}
+    \verb{url}
+    \verb http://dx.doi.org/10.59276/TCKHDT.2023.08.2506
+    \endverb
+    \field{journaltitle}{Tạp chí Khoa học và Đào tạo Ng\^an hàng}
+    \field{month}{08}
+    \field{year}{2023}
+  \endentry
+
+  \entry{g4g_Gb}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=n}{%
+         family={nikki2398@nikki2398},
+         familyi={n\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{n1}
+    \strng{fullhash}{n1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{ML - Gradient Boosting}
+    \verb{url}
+    \verb https://www.geeksforgeeks.org/ml-gradient-boosting/
+    \endverb
+    \field{journaltitle}{GeeksforGeeks}
+    \field{year}{2020}
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{article_tab_3}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=PT}{%
+         family={P.Q},
+         familyi={P\bibinitperiod},
+         given={Thuan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Thuân},
+         familyi={T\bibinitperiod},
+         given={Nguyễn},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PTTN1}
+    \strng{fullhash}{PTTN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.37569/DalatUniversity.10.3.649(2020)
+    \endverb
+    \field{pages}{39}
+    \field{title}{ỨNG DỤNG CÁC THUẬT TOÁN HỌC MÁY ĐỂ ĐÁNH GIÁ
+  BỘ CƠ SỞ DỮ LIỆU TRONG PHÂN LOẠI RỐI LOẠN PHỔ TỰ KỶ}
+    \field{volume}{10}
+    \field{journaltitle}{Tạp chí Khoa học Đại học Đà Lạt}
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
+
+  \entry{RF_structure}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=QJ}{%
+         family={Quiroz},
+         familyi={Q\bibinitperiod},
+         given={Juan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mariun},
+         familyi={M\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mehrjou},
+         familyi={M\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Izadi},
+         familyi={I\bibinitperiod},
+         given={Mahdi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Norhisam},
+         familyi={N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MRMA}{%
+         family={Mohd\bibnamedelima Radzi},
+         familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Mohd\bibnamedelima Amran},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{QJ+1}
+    \strng{fullhash}{QJMNMMIMNMMRMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \verb{doi}
+    \verb 10.1016/j.measurement.2017.11.004
+    \endverb
+    \field{pages}{273\bibrangedash 280}
+    \field{title}{Fault detection of broken rotor bar in LS-PMSM using random
+  forests}
+    \field{volume}{116}
+    \field{journaltitle}{Measurement}
+    \field{month}{11}
+    \field{year}{2017}
+  \endentry
+
+  \entry{article_tab_1}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=RM}{%
+         family={Rohmani},
+         familyi={R\bibinitperiod},
+         given={Mayda},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hartanti},
+         familyi={H\bibinitperiod},
+         given={Dwi},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Asri},
+         familyi={A\bibinitperiod},
+         given={Anindhiasti},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMHDAA1}
+    \strng{fullhash}{RMHDAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.34288/jri.v7i3.377
+    \endverb
+    \field{pages}{219\bibrangedash 227}
+    \field{title}{KNOWLEDGE-BASED HIJAB PRODUCT SELECTION RECOMMENDATION SYSTEM
+  AT CANDY SCARVES}
+    \field{volume}{7}
+    \field{journaltitle}{Jurnal Riset Informatika}
+    \field{month}{06}
+    \field{year}{2025}
+  \endentry
+
+  \entry{setiawan2023time}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=SN}{%
+         family={Setiawan},
+         familyi={S\bibinitperiod},
+         given={Nathanael},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJM}{%
+         family={Hendra},
+         familyi={H\bibinitperiod},
+         given={Jayson\bibnamedelima Mikael},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wijaya},
+         familyi={W\bibinitperiod},
+         given={Bernard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=QNN}{%
+         family={Qomariyah},
+         familyi={Q\bibinitperiod},
+         given={Nunung\bibnamedelima Nurul},
+         giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=AMS}{%
+         family={Astriani},
+         familyi={A\bibinitperiod},
+         given={Maria\bibnamedelima Seraphina},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{SN+1}
+    \strng{fullhash}{SNHJMWBQNNAMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{E3S Web of Conferences}
+    \field{pages}{02002}
+    \field{title}{Time Series Model to Predict Future Popular Animes Genres in
+  2025}
+    \field{volume}{388}
+    \field{year}{2023}
+  \endentry
+
+  \entry{868688}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SJ}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Jianbo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Malik},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Image segmentation;Brightness;Clustering algorithms;Data
+  mining;Eigenvalues and eigenfunctions;Bayesian methods;Coherence;Tree data
+  structures;Filling;Partitioning algorithms}
+    \strng{namehash}{SJMJ1}
+    \strng{fullhash}{SJMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1109/34.868688
+    \endverb
+    \field{number}{8}
+    \field{pages}{888\bibrangedash 905}
+    \field{title}{Normalized cuts and image segmentation}
+    \field{volume}{22}
+    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}
+    \field{year}{2000}
+  \endentry
+
+  \entry{starmer_2019_GBR}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Starmer},
+         familyi={S\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {YouTube}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Gradient Boost Part 2 (of 4): Regression Details}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=2xudPOBz-vs&amp;
+    \endverb
+    \field{journaltitle}{YouTube}
+    \field{year}{2019}
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{starmer_2019_GBC}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Starmer},
+         familyi={S\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {YouTube}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Gradient Boost Part 4 (of 4): Classification Details}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=StWY5QWMXCw
+    \endverb
+    \field{journaltitle}{YouTube}
+    \field{year}{2019}
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{starmer_2020_XGB}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Starmer},
+         familyi={S\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {YouTube}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{XGBoost Part 3 (of 4): Mathematical Details}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=ZVFeW798-2I
+    \endverb
+    \field{journaltitle}{YouTube}
+    \field{year}{2020}
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Taylor_theorem}{misc}{}{}
+    \list{publisher}{1}{%
+      {Wikimedia Foundation}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Taylor's theorem}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Taylor\%27s_theorem
+    \endverb
+    \field{journaltitle}{Wikipedia}
+    \field{year}{2021}
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{adab_pic}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhuo},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jintao},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VN}{%
+         family={Verma},
+         familyi={V\bibinitperiod},
+         given={Naveen},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WZZJVN1}
+    \strng{fullhash}{WZZJVN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1109/TBCAS.2015.2500101
+    \endverb
+    \field{pages}{1\bibrangedash 1}
+    \field{title}{Realizing Low-Energy Classification Systems by Implementing
+  Matrix Multiplication Directly Within an ADC}
+    \field{volume}{9}
+    \field{journaltitle}{IEEE Transactions on Biomedical Circuits and Systems}
+    \field{month}{12}
+    \field{year}{2015}
+  \endentry
+
+  \entry{yunsuxiaozi}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=XY}{%
+         family={Xiaozi},
+         familyi={X\bibinitperiod},
+         given={Yunsu},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{XY1}
+    \strng{fullhash}{XY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+  \field{howpublished}{\url{https://www.kaggle.com/code/yunsuxiaozi/cnn-lstm}}
+    \field{note}{Kaggle}
+    \field{title}{Daily Climate time series data}
+    \field{year}{2023}
+  \endentry
+
+  \entry{lstm_struct}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=YX}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Xiaofeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yalin},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YXLLWY1}
+    \strng{fullhash}{YXLLWY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb 10.1109/TII.2019.2902129
+    \endverb
+    \field{pages}{1\bibrangedash 1}
+    \field{title}{Nonlinear Dynamic Soft Sensor Modeling With Supervised Long
+  Short-Term Memory Network}
+    \field{volume}{PP}
+    \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+    \field{month}{02}
+    \field{year}{2019}
+  \endentry
+\enddatalist
+\endinput

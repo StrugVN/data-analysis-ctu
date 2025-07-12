@@ -1,0 +1,96 @@
+\babel@toc {english}{}\relax 
+\babel@toc {vietnamese}{}\relax 
+\addvspace {10\p@ }
+\contentsline {xchapter}{Cơ sở lý thuyết}{1}{chapter.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Minh họa: Bagging}}{21}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Minh họa: Random Forest \blx@tocontentsinit {0}\cite {RF_structure}}}{21}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Tương quan Out-of-bag error và test error}}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Minh họa: Boosting}}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Minh họa thuật toán AdaBoost, quá trình kết hợp các mô hình yếu \blx@tocontentsinit {0}\cite {adab_pic}}}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Minh họa: Gradient boosting \blx@tocontentsinit {0}\cite {g4g_Gb}}}{26}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Độ lỗi qua các iteration - GB \blx@tocontentsinit {0}\cite {gb_graph}}}{27}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Minh họa cấu trúc của một mạng neural. \blx@tocontentsinit {0}\cite {ann_struct}}}{39}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Mô hình mạng neural hồi quy. \blx@tocontentsinit {0}\cite {rnn_unfold}}}{41}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Cấu trúc của LSTM. \blx@tocontentsinit {0}\cite {lstm_struct}}}{42}{figure.caption.19}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Phân tích dữ liệu}{56}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Số lượng sinh viên theo tình trạng}}{68}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Tuổi khi nhập học theo tình trạng}}{68}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Phân phối số môn tích lũy hk 1 nhóm Dropout}}{69}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Phân phối số môn tích lũy hk 1 nhóm Graduate}}{70}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Phân phối số môn tích lũy hk 2}}{71}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Phân bố điểm trung bình sinh viên}}{71}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Phân bố điểm trung bình sinh viên (to phóng đoạn 9-20)}}{72}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Liên hệ giữa tình trạng nợ học phí và tình trạng sinh viên}}{73}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Histogram 'Curricular units 1st sem (grade)' gốc}}{74}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Histogram 'Curricular units 1st sem (grade)' qua Min-Max Scaler}}{75}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Histogram 'Curricular units 1st sem (grade)' qua Standard Scaler}}{75}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Histogram 'Curricular units 1st sem (grade)' qua Robust Scaler}}{76}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Histogram 'Curricular units 1st sem (grade)' qua Max ABS Scaler}}{76}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Histogram 'Curricular units 1st sem (grade)' qua Quantile Scaler}}{77}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Phân phối điểm đánh giá trung bình }}{85}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Số lượng người xem theo điểm}}{86}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Số lượt yêu thích theo điểm}}{86}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Số lượt yêu thích trung bình các chủ đề chính}}{87}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Số lượt yêu thích trung bình các thể loại/đối tượng khán giả}}{88}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Phân phối nhãn điểm đánh giá}}{90}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Phân phối nhãn các cột qualitative}}{99}{figure.caption.63}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Tương quan 'Stage\_fear' và 'Personality'}}{100}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Tương quan 'Drained\_after\_socializing' và 'Personality'}}{100}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Phân phối trung bình số giờ ở một mình theo tính cách}}{101}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Phân phối trung bình số giờ ở một mình theo tính cách}}{101}{figure.caption.67}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Tương quan 'Social\_event\_attendance' và 'Friends\_circle\_size' theo nhãn 'Personality'}}{102}{figure.caption.68}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Nhiệt độ trung bình từng ngày}}{112}{figure.caption.83}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Nhiệt độ trung bình}}{112}{figure.caption.84}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Phân phối nhiệt độ trung bình}}{113}{figure.caption.85}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Nhiệt độ trung bình các tháng}}{113}{figure.caption.86}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Tương quan nhiệt độ - độ ẩm}}{114}{figure.caption.87}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Kết quả trên tập test Linear Regression}}{116}{figure.caption.89}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Kết quả trên tập test RF Regressor}}{116}{figure.caption.91}%
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Kết quả trên tập test XGB Regressor}}{117}{figure.caption.93}%
+\contentsline {figure}{\numberline {2.35}{\ignorespaces Số lượt khám ngày}}{120}{figure.caption.97}%
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Số lượt khám trung bình tuần}}{120}{figure.caption.98}%
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Số lượt khám trung bình tuần 2025}}{121}{figure.caption.99}%
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Số lượt khám trung bình tuần 2024}}{121}{figure.caption.100}%
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Số lượt khám trung bình tuần 2023}}{121}{figure.caption.101}%
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Số lượt khám}}{122}{figure.caption.102}%
+\contentsline {figure}{\numberline {2.41}{\ignorespaces Phân phối số lượt khám}}{122}{figure.caption.103}%
+\contentsline {figure}{\numberline {2.42}{\ignorespaces Số lượt khám qua các tháng}}{123}{figure.caption.104}%
+\contentsline {figure}{\numberline {2.43}{\ignorespaces Kết quả trên tập test Linear Regression}}{125}{figure.caption.106}%
+\contentsline {figure}{\numberline {2.44}{\ignorespaces Kết quả trên tập test RF Regressor}}{125}{figure.caption.108}%
+\contentsline {figure}{\numberline {2.45}{\ignorespaces Kết quả trên tập test XGB Regressor}}{126}{figure.caption.110}%
+\contentsline {figure}{\numberline {2.46}{\ignorespaces Giá đóng cửa theo thời gian}}{129}{figure.caption.114}%
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Giá hình nến theo thời gian - 365 ngày gần nhất}}{129}{figure.caption.115}%
+\contentsline {figure}{\numberline {2.48}{\ignorespaces Khối lượng khớp lệnh theo thời gian - 365 ngày gần nhất}}{130}{figure.caption.116}%
+\contentsline {figure}{\numberline {2.49}{\ignorespaces Giá đóng cửa}}{130}{figure.caption.117}%
+\contentsline {figure}{\numberline {2.50}{\ignorespaces Phân phối giá đóng cửa}}{131}{figure.caption.118}%
+\contentsline {figure}{\numberline {2.51}{\ignorespaces Giá đóng cửa 2 năm gần nhất cùng các đường MA}}{131}{figure.caption.119}%
+\contentsline {figure}{\numberline {2.52}{\ignorespaces Giá đóng cửa 2 năm gần nhất cùng dải Bollinger bands}}{132}{figure.caption.120}%
+\contentsline {figure}{\numberline {2.53}{\ignorespaces RSI giá đóng cửa 2 năm gần nhất}}{132}{figure.caption.121}%
+\contentsline {figure}{\numberline {2.54}{\ignorespaces MACD giá đóng cửa 2 năm gần nhất}}{132}{figure.caption.122}%
+\contentsline {figure}{\numberline {2.55}{\ignorespaces Kết quả trên tập test Linear Regression}}{134}{figure.caption.124}%
+\contentsline {figure}{\numberline {2.56}{\ignorespaces Kết quả trên tập test RF Regressor}}{135}{figure.caption.126}%
+\contentsline {figure}{\numberline {2.57}{\ignorespaces Kết quả trên tập test XGB Regressor}}{136}{figure.caption.128}%
+\contentsline {figure}{\numberline {2.58}{\ignorespaces Hình ảnh X-quang có phát hiện vùng lạ}}{137}{figure.caption.130}%
+\contentsline {figure}{\numberline {2.59}{\ignorespaces Hình ảnh X-quang không phát hiện vùng lạ}}{138}{figure.caption.131}%
+\contentsline {figure}{\numberline {2.60}{\ignorespaces Số lượng hình ảnh mỗi nhãn}}{138}{figure.caption.132}%
+\contentsline {figure}{\numberline {2.61}{\ignorespaces Phân phối cường độ pixel trung bình}}{139}{figure.caption.133}%
+\contentsline {figure}{\numberline {2.62}{\ignorespaces Độ tương phản theo nhãn}}{139}{figure.caption.134}%
+\contentsline {figure}{\numberline {2.63}{\ignorespaces Tương quan cường độ và tương phản pixel với loại nhãn}}{140}{figure.caption.135}%
+\contentsline {figure}{\numberline {2.64}{\ignorespaces K-Means. ARI = 0.0039}}{141}{figure.caption.136}%
+\contentsline {figure}{\numberline {2.65}{\ignorespaces Spectral Clustering. ARI = 0.0046}}{142}{figure.caption.137}%
+\contentsline {figure}{\numberline {2.66}{\ignorespaces Gaussian Mixture. ARI = -0.0095}}{143}{figure.caption.138}%
+\contentsline {figure}{\numberline {2.67}{\ignorespaces Hình ảnh không lửa}}{144}{figure.caption.140}%
+\contentsline {figure}{\numberline {2.68}{\ignorespaces Hình ảnh có đám cháy}}{145}{figure.caption.141}%
+\contentsline {figure}{\numberline {2.69}{\ignorespaces Số lượng hình ảnh mỗi nhãn}}{145}{figure.caption.142}%
+\contentsline {figure}{\numberline {2.70}{\ignorespaces Phân phối độ phân giải ảnh}}{146}{figure.caption.143}%
+\contentsline {figure}{\numberline {2.71}{\ignorespaces Phân phối cường độ trung bình ảnh}}{147}{figure.caption.144}%
+\contentsline {figure}{\numberline {2.72}{\ignorespaces Phân phối cường độ trung bình các màu trong ảnh có đám cháy}}{148}{figure.caption.145}%
+\contentsline {figure}{\numberline {2.73}{\ignorespaces Phân phối cường độ trung bình các màu trong ảnh không có cháy}}{148}{figure.caption.146}%
+\contentsline {figure}{\numberline {2.74}{\ignorespaces Độ tương phản kênh xanh dương theo nhãn}}{149}{figure.caption.147}%
+\contentsline {figure}{\numberline {2.75}{\ignorespaces Độ tương phản kênh xanh lá theo nhãn}}{149}{figure.caption.148}%
+\contentsline {figure}{\numberline {2.76}{\ignorespaces Độ tương phản kênh đỏ theo nhãn}}{150}{figure.caption.149}%
+\contentsline {figure}{\numberline {2.77}{\ignorespaces K-Means. ARI = 0.2899}}{151}{figure.caption.150}%
+\contentsline {figure}{\numberline {2.78}{\ignorespaces Spectral Clustering. ARI = 0.0838}}{152}{figure.caption.151}%
+\contentsline {figure}{\numberline {2.79}{\ignorespaces Gaussian Mixture. ARI = 0.4966}}{153}{figure.caption.152}%
+\contentsfinish 

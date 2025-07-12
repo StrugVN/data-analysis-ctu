@@ -1,0 +1,571 @@
+\subsection {Mean (Trung bình)}
+\label{stat:mean}
+Mean (trung bình số học) là giá trị đại diện cho mức trung bình của một tập hợp số liệu. Đây là một trong những chỉ số trung tâm phổ biến nhất trong thống kê.
+
+\begin{itemize}
+    \item Trung bình cộng được tính theo công thức:
+    \begin{equation}
+        \label{eq:Mean}
+        \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+    \end{equation}
+\end{itemize}
+
+Trong đó:
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item $n$: Số lượng phần tử trong tập dữ liệu
+    \item $x_i$: Giá trị của phần tử thứ $i$
+\end{itemize}
+
+Ví dụ:
+\vspace{0.5em}
+Cho tập dữ liệu: \fbox{3}, \fbox{5}, \fbox{7}, \fbox{10}
+\[
+    \bar{x} = \frac{3 + 5 + 7 + 10}{4} = \frac{25}{4} = 6.25
+\]
+
+\subsection {Median (Trung vị)}
+\label{stat:med}
+Median (hay còn gọi là trung vị) là giá trị nằm ở giữa của một tập hợp dữ liệu đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần. Nó chia tập dữ liệu thành hai nửa bằng nhau, với một nửa các giá trị nhỏ hơn hoặc bằng trung vị và một nửa các giá trị lớn hơn hoặc bằng trung vị. 
+
+Với một dãy số đã được sắp xếp tăng dần, ký hiệu \( x_{(1)}, x_{(2)}, \ldots, x_{(n)} \), trung vị được tính như sau:
+
+\textbf{Trường hợp 1:} Nếu \( n \) là số lẻ
+\begin{equation}
+\label{eq:median_1}
+\text{Median} = x_{\left( \frac{n+1}{2} \right)}
+\end{equation}
+
+\textbf{Trường hợp 2:} Nếu \( n \) là số chẵn
+\begin{equation}
+\label{eq:median_0}
+\text{Median} = \frac{1}{2} \left( x_{\left( \frac{n}{2} \right)} + x_{\left( \frac{n}{2} + 1 \right)} \right)
+\end{equation}
+
+Ví dụ:
+Nếu bạn có một tập dữ liệu như sau: 2, 3, 5, 7, 9, thì trung vị là 5, vì nó nằm ở giữa và có hai giá trị nhỏ hơn (2, 3) và hai giá trị lớn hơn (7, 9).
+
+Nếu tập dữ liệu có số lượng giá trị chẵn, trung vị là trung bình cộng của hai giá trị ở giữa sau khi đã sắp xếp. 
+
+Ví dụ, nếu tập dữ liệu là 2, 3, 5, 7, thì trung vị là $\frac{3 + 5}{2}$ = 4.
+
+Khác biệt giữa trung vị và trung bình cộng:
+Trung bình cộng (mean) là tổng của tất cả các giá trị trong tập dữ liệu chia cho số lượng giá trị, còn trung vị là giá trị ở giữa.
+
+\textbf{Ưu điểm của Trung vị}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Ít bị ảnh hưởng bởi giá trị ngoại lệ (outliers):} Khác với trung bình cộng, trung vị không bị kéo lệch bởi các giá trị quá lớn hoặc quá nhỏ trong tập dữ liệu.
+    \item \textbf{Phù hợp với phân bố không chuẩn:} Trung vị là đại lượng thích hợp để mô tả xu hướng trung tâm của các tập dữ liệu có phân bố lệch hoặc không đối xứng.
+    \item \textbf{Đơn giản và dễ tính:} Việc xác định trung vị chỉ cần sắp xếp dữ liệu theo thứ tự và chọn giá trị giữa, nên không yêu cầu các phép tính phức tạp.
+\end{itemize}
+
+\textbf{Ứng dụng của Trung vị}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Trong thống kê mô tả:} Được sử dụng để mô tả xu hướng trung tâm trong các báo cáo thống kê, đặc biệt là khi dữ liệu không tuân theo phân phối chuẩn.
+    \item \textbf{Trong lĩnh vực tài chính:} Trung vị được dùng để tính toán mức lợi nhuận điển hình, giá trị tài sản đầu tư, hoặc thu nhập hộ gia đình để tránh bị ảnh hưởng bởi các giá trị bất thường.
+    \item \textbf{Trong y học:} Thường được sử dụng để mô tả các chỉ số sinh học như huyết áp, cholesterol... giúp phản ánh tình trạng sức khỏe điển hình trong dân số mà không bị ảnh hưởng bởi các ca bệnh hiếm.
+    \item \textbf{Trong khoa học dữ liệu và máy học:} Trung vị được dùng để xử lý dữ liệu có phân phối lệch, phát hiện điểm bất thường, hoặc phân chia tập dữ liệu thành các phần có kích thước và đặc tính tương tự nhau (như chia thành tứ phân vị).
+\end{itemize}
+
+\subsection {Mode (Giá trị xuất hiện nhiều nhất)}
+\label{stat:mode}
+
+Mode  là giá trị xuất hiện nhiều nhất trong một tập hợp dữ liệu.
+Nó là một trong ba đại lượng đo xu hướng trung tâm, cùng với Trung bình (Mean) và Trung vị (Median).
+
+\begin{itemize}
+    \item Mode được tính theo công thức:
+    \begin{equation}
+        \label{eq:Mode}
+        \text{Mode} = \arg\max_{x_i} \left( \text{Frequency}(x_i) \right)
+    \end{equation}
+\end{itemize}
+
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Trong thống kê, Mode là giá trị được quan sát thấy tần suất xuất hiện nhiều nhất trong một tập hợp dữ liệu.
+
+    \item Đối với phân phối chuẩn, Mode có cùng giá trị với giá trị trung bình và trung vị.
+
+    \item Trong nhiều trường hợp, giá trị của Mode sẽ khác với giá trị trung bình. 
+\end{itemize}
+
+\textbf{Ưu điểm của Mode}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Dễ hiểu và dễ tính toán.
+
+    \item Không bị ảnh hưởng bởi các giá trị ngoại lai.
+
+    \item Dễ dàng xác định trong các dữ liệu chưa được gộp và phân phối có tần số rời rạc.
+
+    \item Hữu ích cho dữ liệu định tính.
+
+    \item Có thể tính toán với bảng tần số không giới hạn.
+
+    \item Có thể được xác định bằng hình ảnh.
+\end{itemize}
+
+\textbf{Nhược điểm của Mode}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Không được định nghĩa rõ ràng.
+
+    \item Không tạo thành dựa trên tất cả các giá trị trong tập dữ liệu.
+
+    \item Chỉ ổn định cho số lượng giá trị nhiều và sẽ không được xác định rõ ràng nếu dữ liệu chỉ có một số lượng nhỏ các giá trị.
+
+    \item Không có khả năng sử dụng tính toán thêm.
+
+    \item Đôi khi dữ liệu có một hoặc nhiều Mode hoặc không có Mode nào cả.
+\end{itemize}
+
+\subsection {Percentile (Phân vị)}
+\label{stat:percentile}
+
+Phân vị thứ \( P \) là giá trị chia tập dữ liệu đã được sắp xếp thành 100 phần bằng nhau, sao cho \( P\% \) các quan sát có giá trị nhỏ hơn hoặc bằng giá trị này.
+
+\textbf{Công thức tính vị trí phân vị}
+
+Vị trí lý thuyết của phân vị thứ \( P \) trong dãy dữ liệu được sắp xếp tăng dần được xác định bằng công thức:
+
+\begin{equation}
+    L_P = \frac{P}{100}(n + 1)
+    \label{eq:percentile-position}
+\end{equation}
+
+\noindent
+Trong đó:
+
+\begin{itemize}
+    \item \( L_P \): Vị trí lý thuyết của phân vị thứ \( P \) trong tập dữ liệu đã được sắp xếp (có thể là số thập phân).
+    \item \( P \): Giá trị phân vị cần tính, thuộc khoảng từ \( 0 \) đến \( 100 \).
+    \item \( n \): Tổng số phần tử trong tập dữ liệu.
+    \item \( \frac{P}{100} \): Tỷ lệ phần trăm tương ứng với phân vị thứ \( P \).
+    \item \( n + 1 \): Hệ số điều chỉnh để tăng độ chính xác khi nội suy giữa các phần tử.
+\end{itemize}
+
+\textbf{Trường hợp nội suy}
+
+Nếu \( L_P \) không phải là số nguyên, ta thực hiện nội suy tuyến tính giữa hai phần tử gần nhất trong tập dữ liệu đã sắp xếp.
+
+Giả sử \( L_P = k + d \), trong đó \( k \in \mathbb{Z} \), \( 0 < d < 1 \), thì:
+
+\begin{equation}
+    \label{eq:percentile-position-2}
+    \text{Percentile}_P = x_k + d \cdot (x_{k+1} - x_k)
+\end{equation}
+
+\noindent
+Với:
+\begin{itemize}
+    \item \( x_k \): Phần tử ở vị trí thứ \( k \),
+    \item \( x_{k+1} \): Phần tử kế tiếp sau \( x_k \),
+    \item \( d \): Phần thập phân của \( L_P \).
+\end{itemize}
+
+\textbf{Ví dụ minh họa}
+
+Giả sử tập dữ liệu đã được sắp xếp như sau:
+
+\[
+    2,\ 4,\ 6,\ 8,\ 10,\ 12,\ 14,\ 16,\ 18,\ 20
+\]
+
+\noindent
+Với \( n = 10 \), ta tính phân vị thứ 25:
+
+\[
+    L_{25} = \frac{25}{100}(10 + 1) = 2.75
+\]
+
+Nội suy giữa giá trị ở vị trí 2 và 3:
+
+\[
+    \text{Percentile}_{25} = 4 + 0.75 \cdot (6 - 4) = 5.5
+\]
+
+\textbf{Ứng dụng của phân vị}
+
+\begin{itemize}
+    \item Xếp hạng học sinh theo điểm số.
+    \item Đánh giá chỉ số cơ thể trong y tế (BMI, chiều cao...).
+    \item Phân tích dữ liệu để phát hiện ngoại lệ.
+    \item Trực quan hóa phân bố dữ liệu qua biểu đồ hộp (boxplot) với các tứ phân vị (Q1, Q2, Q3).
+\end{itemize}
+
+\subsection {Max and Min (Giá trị lớn nhất và nhỏ nhất)}
+\label{stat:minmax}
+
+Trong thống kê mô tả, hai giá trị quan trọng giúp xác định độ bao phủ của dữ liệu là giá trị lớn nhất và giá trị nhỏ nhất.
+
+\textbf{Định nghĩa}
+
+\begin{itemize}
+    \item \textbf{Giá trị lớn nhất (Maximum - Max):} là phần tử có giá trị cao nhất trong tập dữ liệu.
+    \item \textbf{Giá trị nhỏ nhất (Minimum - Min):} là phần tử có giá trị thấp nhất trong tập dữ liệu.
+\end{itemize}
+
+\textbf{Ký hiệu và công thức}
+
+Cho tập dữ liệu gồm \( n \) phần tử: \( \{x_1, x_2, \ldots, x_n\} \), ta có:
+
+\begin{itemize}
+    \item \textbf{Giá trị lớn nhất (Max):}
+    \[
+        \max(x_i) = \max \{ x_1, x_2, \ldots, x_n \}
+    \]
+    
+    \item \textbf{Giá trị nhỏ nhất (Min):}
+    \[
+        \min(x_i) = \min \{ x_1, x_2, \ldots, x_n \}
+    \]
+\end{itemize}
+
+\textbf{Ví dụ minh họa}
+
+Cho tập dữ liệu sau:
+
+\[
+7,\ 12,\ 5,\ 9,\ 14,\ 6
+\]
+
+\noindent Ta có:
+\begin{align*}
+\max(x_i) &= 14 \\
+\min(x_i) &= 5
+\end{align*}
+
+\textbf{Ứng dụng trong thống kê và học máy}
+
+\begin{itemize}
+    \item \textbf{Tính phạm vi (Range):}
+    \[
+        \text{Range} = \max(x_i) - \min(x_i)
+    \]
+
+    \item \textbf{Chuẩn hóa dữ liệu (Min-Max normalization):}
+    \[
+        x' = \frac{x - \min(x)}{\max(x) - \min(x)}
+    \]
+    Phương pháp này giúp đưa dữ liệu về khoảng giá trị \([0, 1]\), thường được sử dụng trong học máy để cải thiện hiệu suất huấn luyện mô hình.
+
+    \item \textbf{Phát hiện giá trị ngoại lệ (Outliers):}  
+    Các giá trị quá xa so với min hoặc max có thể bị xem là bất thường nếu kết hợp với các phân vị (Q1, Q3) và khoảng tứ phân vị (IQR).
+\end{itemize}
+
+
+\subsection {Range (Khoảng biến thiên)}
+\label{stat:range}
+
+Phạm vi là một trong những thước đo đơn giản nhất của độ phân tán trong thống kê mô tả. Nó được tính bằng hiệu số giữa giá trị lớn nhất và giá trị nhỏ nhất trong tập dữ liệu.
+
+\textbf{Công thức tính}
+
+\begin{equation}
+    \text{Range} = \max(x_i) - \min(x_i)
+    \tag{2.4}
+\end{equation}
+
+\noindent
+Trong đó:
+\begin{itemize}
+    \item \( \max(x_i) \): Giá trị lớn nhất trong tập dữ liệu \( \{x_1, x_2, \ldots, x_n\} \).
+    \item \( \min(x_i) \): Giá trị nhỏ nhất trong tập dữ liệu.
+    \item \( \text{Range} \): Phạm vi của dữ liệu, thể hiện độ trải rộng giữa hai giá trị cực trị.
+\end{itemize}
+
+\textbf{Đặc điểm}
+\begin{itemize}
+    \item Phạm vi rất dễ tính toán và giúp hình dung nhanh độ biến thiên của dữ liệu.
+    \item Tuy nhiên, phạm vi "rất nhạy cảm với các giá trị ngoại lệ (outliers)", vì nó chỉ xét đến hai giá trị cực trị.
+    \item Phù hợp sử dụng trong những trường hợp dữ liệu không có ngoại lệ rõ rệt hoặc cần ước lượng nhanh.
+\end{itemize}
+
+\textbf{Ví dụ minh họa}
+
+Cho tập dữ liệu:
+
+\[
+    4,\ 7,\ 9,\ 10,\ 15
+\]
+
+\noindent
+Ta có:
+
+\[
+    \max(x_i) = 15,\quad \min(x_i) = 4
+\]
+
+\[
+    \Rightarrow \text{Range} = 15 - 4 = 11
+\]
+
+
+\subsection {Variance (Phương sai)}
+\label{stat:var}
+
+Phương sai là một đại lượng quan trọng dùng để đo mức độ phân tán (biến thiên) của dữ liệu so với giá trị trung bình. Nó cho biết các quan sát trong tập dữ liệu cách xa trung bình cộng bao nhiêu, tính theo bình phương.
+
+\textbf{Ký hiệu và công thức}
+
+Cho một tập dữ liệu \( \{x_1, x_2, \ldots, x_n\} \), với trung bình cộng là \( \bar{x} \), ta có:
+
+\begin{itemize}
+    \item \textbf{Phương sai mẫu (Sample variance)} được tính theo công thức:
+    \begin{equation}
+        s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
+        \label{eq:sample-variance}
+    \end{equation}
+
+    \item \textbf{Phương sai tổng thể (Population variance)}:
+    \begin{equation}
+        \sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2
+        \label{eq:population-variance}
+    \end{equation}
+\end{itemize}
+
+Trong đó:
+\begin{itemize}
+    \item \( s^2 \): phương sai mẫu.
+    \item \( \sigma^2 \): phương sai tổng thể.
+    \item \( n \): số phần tử trong mẫu hoặc tổng thể.
+    \item \( x_i \): giá trị quan sát thứ \( i \).
+    \item \( \bar{x} \): trung bình mẫu.
+    \item \( \mu \): trung bình tổng thể (nếu biết).
+\end{itemize}
+
+\textbf{Giải thích ý nghĩa}
+
+Phương sai đo lường trung bình bình phương khoảng cách từ mỗi điểm dữ liệu đến trung bình. Giá trị phương sai càng lớn cho thấy dữ liệu phân tán rộng, phương sai càng nhỏ cho thấy dữ liệu tập trung gần trung bình.
+
+\textbf{Ví dụ minh họa}
+
+Cho tập dữ liệu:
+
+\[
+x = \{ 2,\ 4,\ 6,\ 8,\ 10 \}
+\]
+
+Tính trung bình:
+
+\[
+\bar{x} = \frac{2 + 4 + 6 + 8 + 10}{5} = 6
+\]
+
+Tính phương sai mẫu:
+
+\[
+s^2 = \frac{1}{5 - 1} \left[ (2 - 6)^2 + (4 - 6)^2 + (6 - 6)^2 + (8 - 6)^2 + (10 - 6)^2 \right]
+= \frac{1}{4} (16 + 4 + 0 + 4 + 16) = \frac{40}{4} = 10
+\]
+
+\textbf{Ứng dụng}
+
+\begin{itemize}
+    \item Đo lường độ biến thiên trong dữ liệu.
+    \item So sánh mức độ rủi ro trong tài chính (phân tán lợi nhuận).
+    \item Là thành phần cơ bản để tính độ lệch chuẩn, hệ số tương quan, kiểm định giả thuyết.
+    \item Dùng trong nhiều mô hình thống kê và học máy (hồi quy tuyến tính, PCA, v.v.).
+\end{itemize}
+
+\subsection {Standard Deviation (Độ lệch chuẩn)}
+\label{stat:sd}
+
+Độ lệch chuẩn là một thước đo thống kê phổ biến nhằm xác định mức độ phân tán của dữ liệu quanh giá trị trung bình. Nó là căn bậc hai của phương sai, giúp đưa đơn vị đo về cùng đơn vị với dữ liệu gốc, từ đó dễ diễn giải hơn.
+
+\textbf{Công thức}
+
+\begin{itemize}
+    \item \textbf{Độ lệch chuẩn mẫu (Sample standard deviation)}:
+    \begin{equation}
+        s = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+        \label{eq:sample-sd}
+    \end{equation}
+
+    \item \textbf{Độ lệch chuẩn tổng thể (Population standard deviation)}:
+    \begin{equation}
+        \sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2}
+        \label{eq:population-sd}
+    \end{equation}
+\end{itemize}
+
+\noindent
+Trong đó:
+\begin{itemize}
+    \item \( s \): Độ lệch chuẩn mẫu.
+    \item \( \sigma \): Độ lệch chuẩn tổng thể.
+    \item \( n \): Số phần tử trong mẫu hoặc tổng thể.
+    \item \( x_i \): Giá trị quan sát thứ \( i \).
+    \item \( \bar{x} \): Trung bình mẫu.
+    \item \( \mu \): Trung bình tổng thể.
+\end{itemize}
+
+\textbf{Ý nghĩa}
+
+Độ lệch chuẩn cho biết mức độ phân tán trung bình của các điểm dữ liệu so với trung bình cộng:
+
+\begin{itemize}
+    \item Độ lệch chuẩn \textbf{càng nhỏ} → dữ liệu \textbf{tập trung quanh trung bình}.
+    \item Độ lệch chuẩn \textbf{càng lớn} → dữ liệu \textbf{phân tán rộng hơn}.
+\end{itemize}
+
+\textbf{Ví dụ minh họa}
+
+Cho tập dữ liệu:
+
+\[
+x = \{ 2,\ 4,\ 6,\ 8,\ 10 \}
+\]
+
+Trung bình:
+
+\[
+\bar{x} = \frac{2 + 4 + 6 + 8 + 10}{5} = 6
+\]
+
+Tính độ lệch chuẩn mẫu:
+
+\[
+s = \sqrt{\frac{1}{4} \left[ (2 - 6)^2 + (4 - 6)^2 + (6 - 6)^2 + (8 - 6)^2 + (10 - 6)^2 \right]} = \sqrt{\frac{40}{4}} = \sqrt{10} \approx 3.16
+\]
+
+\textbf{Ứng dụng}
+
+\begin{itemize}
+    \item Được sử dụng rộng rãi trong thống kê mô tả để đo lường sự biến động.
+    \item Là cơ sở cho nhiều phương pháp kiểm định giả thuyết (t-test, ANOVA...).
+    \item Giúp đánh giá độ rủi ro trong tài chính, ví dụ như độ biến động của giá cổ phiếu.
+    \item Được sử dụng trong học máy và khai phá dữ liệu để chuẩn hóa dữ liệu.
+\end{itemize}
+
+\subsection{Coefficient of Variation - CV (Hệ số biến thiên)}
+\label{stat:coef}
+
+Hệ số biến thiên là một chỉ số thống kê đo lường mức độ phân tán tương đối của dữ liệu so với trung bình cộng. Nó biểu thị độ lệch chuẩn dưới dạng phần trăm của giá trị trung bình.
+
+\textbf{Công thức}
+
+\begin{itemize}
+    \item \textbf{Hệ số biến thiên của mẫu:}
+    \begin{equation}
+        CV = \frac{s}{\bar{x}} \times 100\%
+        \label{eq:cv-sample}
+    \end{equation}
+    
+    \item \textbf{Hệ số biến thiên của tổng thể:}
+    \begin{equation}
+        CV = \frac{\sigma}{\mu} \times 100\%
+        \label{eq:cv-population}
+    \end{equation}
+\end{itemize}
+
+Trong đó:
+\begin{itemize}
+    \item \( CV \): Hệ số biến thiên (thường biểu thị bằng phần trăm).
+    \item \( s \): Độ lệch chuẩn mẫu.
+    \item \( \bar{x} \): Trung bình mẫu.
+    \item \( \sigma \): Độ lệch chuẩn tổng thể.
+    \item \( \mu \): Trung bình tổng thể.
+\end{itemize}
+
+\textbf{Ý nghĩa}
+
+\begin{itemize}
+    \item CV đo lường mức độ biến động của dữ liệu **tương đối** so với trung bình.
+    \item Hữu ích khi so sánh độ phân tán của các tập dữ liệu có đơn vị đo hoặc giá trị trung bình khác nhau.
+    \item CV càng cao → dữ liệu biến động càng lớn.
+    \item CV càng thấp → dữ liệu ổn định và tập trung hơn quanh trung bình.
+\end{itemize}
+
+\textbf{Ví dụ minh họa}
+
+Cho tập dữ liệu sau:
+
+\[
+x = \{ 2,\ 4,\ 6,\ 8,\ 10 \}
+\]
+
+Ta đã biết:
+\begin{align*}
+\bar{x} &= 6 \\
+s &= \sqrt{10} \approx 3.16
+\end{align*}
+
+Khi đó, hệ số biến thiên:
+
+\[
+CV = \frac{3.16}{6} \times 100\% \approx 52.67\%
+\]
+
+\textbf{Ứng dụng}
+
+\begin{itemize}
+    \item So sánh độ biến động của các chỉ số kinh tế, tài chính, năng suất sản xuất giữa các nhóm khác nhau.
+    \item Đánh giá độ ổn định của dữ liệu trong nghiên cứu thí nghiệm, kiểm tra chất lượng, phân tích định lượng.
+    \item Trong tài chính, CV được sử dụng để đánh giá rủi ro tương đối của các khoản đầu tư.
+\end{itemize}
+
+\subsection {Interquartile Range – IQR (Khoảng tứ phân vị)}
+\label{stat:iqr}
+
+Khoảng tứ phân vị (IQR – Interquartile Range) là một thước đo thống kê thể hiện phạm vi phân bố của nhóm dữ liệu trung bình, bằng hiệu số giữa tứ phân vị thứ ba (\(Q_3\)) và tứ phân vị thứ nhất (\(Q_1\)).
+
+\textbf{Công thức tính IQR}
+
+\begin{equation}
+    \text{IQR} = Q_3 - Q_1
+    \label{eq:iqr}
+\end{equation}
+
+\noindent Trong đó:
+\begin{itemize}
+    \item \( Q_1 \): Tứ phân vị thứ nhất (25\% số quan sát nhỏ hơn hoặc bằng).
+    \item \( Q_3 \): Tứ phân vị thứ ba (75\% số quan sát nhỏ hơn hoặc bằng).
+    \item \( \text{IQR} \): Khoảng tứ phân vị, biểu thị phạm vi của 50\% dữ liệu trung tâm.
+\end{itemize}
+
+\textbf{Ý nghĩa của IQR}
+
+\begin{itemize}
+    \item IQR đo lường độ phân tán của dữ liệu theo cách \textbf{ít bị ảnh hưởng bởi các giá trị ngoại lệ (outliers)} so với độ lệch chuẩn.
+    \item Thường dùng để xác định phạm vi dữ liệu “bình thường” và phát hiện ngoại lệ.
+\end{itemize}
+
+\textbf{Phát hiện ngoại lệ bằng IQR}
+
+Các điểm dữ liệu được xem là ngoại lệ nếu nằm ngoài khoảng:
+
+\[
+[Q_1 - 1.5 \cdot \text{IQR},\quad Q_3 + 1.5 \cdot \text{IQR}]
+\]
+
+\textbf{Ví dụ minh họa}
+
+Cho tập dữ liệu sau (đã được sắp xếp):
+
+\[
+x = \{1,\ 3,\ 5,\ 7,\ 9,\ 11,\ 13,\ 15,\ 17\}
+\]
+
+Ta xác định:
+
+\begin{itemize}
+    \item \( Q_1 = 5 \) (tứ phân vị thứ nhất)
+    \item \( Q_3 = 13 \) (tứ phân vị thứ ba)
+\end{itemize}
+
+\noindent Khi đó:
+\[
+\text{IQR} = Q_3 - Q_1 = 13 - 5 = 8
+\]
+
+\noindent Các giá trị ngoài khoảng:
+\[
+[Q_1 - 1.5 \cdot \text{IQR},\ Q_3 + 1.5 \cdot \text{IQR}] = [5 - 12,\ 13 + 12] = [-7,\ 25]
+\]
+→ Không có ngoại lệ trong tập dữ liệu này.
+
+\textbf{Ứng dụng}
+
+\begin{itemize}
+    \item Dùng trong biểu đồ hộp (boxplot) để mô tả sự phân bố dữ liệu.
+    \item Phân tích độ biến thiên của dữ liệu mà không bị ảnh hưởng bởi các giá trị cực đoan.
+    \item Hữu ích trong kiểm tra chất lượng, dữ liệu sinh học, tài chính và học máy.
+\end{itemize}

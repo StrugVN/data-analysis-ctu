@@ -1,0 +1,168 @@
+\babel@toc {english}{}\relax 
+\babel@toc {vietnamese}{}\relax 
+\contentsline {chapter}{Mục lục}{ii}{chapter*.1}%
+\contentsline {chapter}{Danh sách Hình}{iv}{chapter*.2}%
+\contentsline {chapter}{Danh sách Bảng}{vi}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Cơ sở lý thuyết}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Giới thiệu các thông số thống kê}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Mean (Trung bình)}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Median (Trung vị)}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Mode (Giá trị xuất hiện nhiều nhất)}{3}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Percentile (Phân vị)}{3}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Max and Min (Giá trị lớn nhất và nhỏ nhất)}{5}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Range (Khoảng biến thiên)}{6}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}Variance (Phương sai)}{7}{subsection.1.1.7}%
+\contentsline {subsection}{\numberline {1.1.8}Standard Deviation (Độ lệch chuẩn)}{8}{subsection.1.1.8}%
+\contentsline {subsection}{\numberline {1.1.9}Coefficient of Variation - CV (Hệ số biến thiên)}{10}{subsection.1.1.9}%
+\contentsline {subsection}{\numberline {1.1.10}Interquartile Range – IQR (Khoảng tứ phân vị)}{11}{subsection.1.1.10}%
+\contentsline {section}{\numberline {1.2}Giới thiệu các biểu đồ trực quan}{13}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Histogram (Biểu đồ tần suất)}{13}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Box Plot (Biểu đồ hộp)}{14}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Scatter Plot (Biểu đồ phân tán)}{15}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Heatmap (Biểu đồ nhiệt)}{16}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Pie Plot (Biểu đồ tròn)}{17}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Bar Plot (Biểu đồ cột)}{18}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Line Plot (Biểu đồ đường)}{19}{subsection.1.2.7}%
+\contentsline {section}{\numberline {1.3}Giới thiệu các mô hình máy học}{20}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Random Forest (Rừng ngẫu nhiên)}{20}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Khái niệm: Bootstrapping và Bagging}{20}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Khái niệm: Random Forest}{20}{subsubsection.1.3.1.2}%
+\contentsline {subsubsection}{\numberline {1.3.1.3}Mô tả thuật toán xây dựng Random Forest}{21}{subsubsection.1.3.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1.4}Dự đoán bằng Random Forest}{22}{subsubsection.1.3.1.4}%
+\contentsline {subsubsection}{\numberline {1.3.1.5}Đánh giá Random Forest}{22}{subsubsection.1.3.1.5}%
+\contentsline {subsubsection}{\numberline {1.3.1.6}Điểm mạnh của Random Forest}{23}{subsubsection.1.3.1.6}%
+\contentsline {subsection}{\numberline {1.3.2}Gradient Boosting (Tăng cường độ dốc)}{23}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Khái niệm: Boosting}{23}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Gradient Boosting}{25}{subsubsection.1.3.2.2}%
+\contentsline {subsubsection}{\numberline {1.3.2.3}Thuật toán Gradient Boosting \blx@tocontentsinit {0}\cite {starmer_2019_GBR} \blx@tocontentsinit {0}\cite {starmer_2019_GBC}:}{25}{subsubsection.1.3.2.3}%
+\contentsline {subsubsection}{\numberline {1.3.2.4}Điểm mạnh của Gradient Boosting}{26}{subsubsection.1.3.2.4}%
+\contentsline {subsection}{\numberline {1.3.3}XGBoost (Extreme Gradient Boosting)}{27}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Xây dựng CART trong mô hình XGBoost}{27}{subsubsection.1.3.3.1}%
+\contentsline {subsection}{\numberline {1.3.4}Logistic Classification (Hồi quy Logistic)}{31}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}K-Nearest Neighbors - KNN (Láng giềng gần nhất)}{33}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}K-Means (Thuật toán phân cụm K trung bình)}{35}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}Spectral Clustering (Phân cụm phổ)}{36}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}Gaussian Mixture Model - GMM (Mô hình hỗn hợp Gauss)}{37}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}LSTM (Long Short-Term Memory)}{39}{subsection.1.3.9}%
+\contentsline {subsubsection}{\numberline {1.3.9.1}Artificial Neural Network (ANN)}{39}{subsubsection.1.3.9.1}%
+\contentsline {subsubsection}{\numberline {1.3.9.2}Backpropagation}{40}{subsubsection.1.3.9.2}%
+\contentsline {subsubsection}{\numberline {1.3.9.3}Recurrent Neural Network (RNN)}{40}{subsubsection.1.3.9.3}%
+\contentsline {subsubsection}{\numberline {1.3.9.4}Hạn chế của RNN}{41}{subsubsection.1.3.9.4}%
+\contentsline {subsubsection}{\numberline {1.3.9.5}Long Short-Term Memory (LSTM)}{42}{subsubsection.1.3.9.5}%
+\contentsline {section}{\numberline {1.4}Giới thiệu các bộ chuẩn hóa dữ liệu}{43}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Chuẩn hóa dữ liệu với Min-Max Scaler}{43}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Chuẩn hóa dữ liệu với Standard Scaler}{44}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Chuẩn hóa dữ liệu với Robust Scaler}{45}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Chuẩn hóa dữ liệu với MaxAbsScaler}{46}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Chuẩn hóa dữ liệu với Quantile Transformer}{47}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}Giới thiệu các chỉ số đánh giá hiệu suất mô hình}{48}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Accuracy (Độ chính xác)}{48}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}F1-score}{49}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Precision}{49}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Recall}{50}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}ROC AUC}{50}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Mean Squared Error (MAE)}{51}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}Mean Absolute Error (MAE)}{51}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}Root Mean Squared Error (RMSE)}{52}{subsection.1.5.8}%
+\contentsline {subsection}{\numberline {1.5.9}Mean Absolute Percentage Error (MAPE)}{53}{subsection.1.5.9}%
+\contentsline {subsection}{\numberline {1.5.10}Adjusted Rand Index (ARI)}{54}{subsection.1.5.10}%
+\contentsline {chapter}{\numberline {2}Phân tích dữ liệu}{56}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Dữ liệu dạng bảng}{56}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Predict Student's Dropout and Academic Success}{56}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Giới thiệu bộ dữ liệu}{56}{subsubsection.2.1.1.1}%
+\contentsline {paragraph}{\numberline {2.1.1.1.1}Nguồn dữ liệu}{56}{paragraph.2.1.1.1.1}%
+\contentsline {paragraph}{\numberline {2.1.1.1.2}Mô tả dữ liệu}{56}{paragraph.2.1.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Các nghiên cứu liên quan}{64}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Phân tích dữ liệu}{65}{subsubsection.2.1.1.3}%
+\contentsline {paragraph}{\numberline {2.1.1.3.1}Thống kê dữ liệu}{65}{paragraph.2.1.1.3.1}%
+\contentsline {paragraph}{\numberline {2.1.1.3.2}Trực quan hóa dữ liệu}{68}{paragraph.2.1.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Data transformation}{73}{subsubsection.2.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.1.5}Mô hình hóa dữ liệu}{77}{subsubsection.2.1.1.5}%
+\contentsline {paragraph}{\numberline {2.1.1.5.1}Cấu hình cài đặt}{77}{paragraph.2.1.1.5.1}%
+\contentsline {paragraph}{\numberline {2.1.1.5.2}Phân lớp tình trạng sinh viên}{78}{paragraph.2.1.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.6}Kết luận}{80}{subsubsection.2.1.1.6}%
+\contentsline {subsection}{\numberline {2.1.2}MAL show Dataset}{80}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Giới thiệu bộ dữ liệu}{80}{subsubsection.2.1.2.1}%
+\contentsline {paragraph}{\numberline {2.1.2.1.1}Nguồn dữ liệu}{80}{paragraph.2.1.2.1.1}%
+\contentsline {paragraph}{\numberline {2.1.2.1.2}Mô tả dữ liệu}{80}{paragraph.2.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Các nghiên cứu liên quan}{82}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Phân tích dữ liệu}{83}{subsubsection.2.1.2.3}%
+\contentsline {paragraph}{\numberline {2.1.2.3.1}Tiền xử lý}{83}{paragraph.2.1.2.3.1}%
+\contentsline {paragraph}{\numberline {2.1.2.3.2}Thống kê dữ liệu}{83}{paragraph.2.1.2.3.2}%
+\contentsline {paragraph}{\numberline {2.1.2.3.3}Trực quan hóa dữ liệu}{84}{paragraph.2.1.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Mô hình hóa dữ liệu}{88}{subsubsection.2.1.2.4}%
+\contentsline {paragraph}{\numberline {2.1.2.4.1}Cấu hình cài đặt}{88}{paragraph.2.1.2.4.1}%
+\contentsline {paragraph}{\numberline {2.1.2.4.2}Phân lớp đánh giá phim}{89}{paragraph.2.1.2.4.2}%
+\contentsline {paragraph}{\numberline {2.1.2.4.3}Phân lớp đánh giá độ phổ biến}{92}{paragraph.2.1.2.4.3}%
+\contentsline {paragraph}{\numberline {2.1.2.4.4}Phân lớp đánh giá độ yêu thích}{94}{paragraph.2.1.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.1.2.5}Kết luận}{96}{subsubsection.2.1.2.5}%
+\contentsline {subsection}{\numberline {2.1.3}Extrovert vs. Introvert Behavior Data}{96}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Giới thiệu bộ dữ liệu}{96}{subsubsection.2.1.3.1}%
+\contentsline {paragraph}{\numberline {2.1.3.1.1}Nguồn dữ liệu}{96}{paragraph.2.1.3.1.1}%
+\contentsline {paragraph}{\numberline {2.1.3.1.2}Mô tả dữ liệu}{96}{paragraph.2.1.3.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Các nghiên cứu liên quan}{97}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}Phân tích dữ liệu}{98}{subsubsection.2.1.3.3}%
+\contentsline {paragraph}{\numberline {2.1.3.3.1}Thống kê dữ liệu}{98}{paragraph.2.1.3.3.1}%
+\contentsline {paragraph}{\numberline {2.1.3.3.2}Trực quan hóa dữ liệu}{99}{paragraph.2.1.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.4}Mô hình hóa dữ liệu}{102}{subsubsection.2.1.3.4}%
+\contentsline {paragraph}{\numberline {2.1.3.4.1}Cấu hình cài đặt}{102}{paragraph.2.1.3.4.1}%
+\contentsline {paragraph}{\numberline {2.1.3.4.2}Phân lớp tính cách 'Personality'}{103}{paragraph.2.1.3.4.2}%
+\contentsline {paragraph}{\numberline {2.1.3.4.3}Phân lớp 'Drained after socializing'}{105}{paragraph.2.1.3.4.3}%
+\contentsline {paragraph}{\numberline {2.1.3.4.4}Phân lớp 'Stage fear'}{107}{paragraph.2.1.3.4.4}%
+\contentsline {subsubsection}{\numberline {2.1.3.5}Kết luận}{108}{subsubsection.2.1.3.5}%
+\contentsline {section}{\numberline {2.2}Dữ liệu dạng chuỗi thời gian}{109}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Daily Climate Delhi}{109}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Giới thiệu bộ dữ liệu}{109}{subsubsection.2.2.1.1}%
+\contentsline {paragraph}{\numberline {2.2.1.1.1}Nguồn dữ liệu}{109}{paragraph.2.2.1.1.1}%
+\contentsline {paragraph}{\numberline {2.2.1.1.2}Mô tả dữ liệu}{109}{paragraph.2.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Các nghiên cứu liên quan}{109}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Phân tích dữ liệu}{110}{subsubsection.2.2.1.3}%
+\contentsline {paragraph}{\numberline {2.2.1.3.1}Thống kê dữ liệu}{110}{paragraph.2.2.1.3.1}%
+\contentsline {paragraph}{\numberline {2.2.1.3.2}Trực quan hóa dữ liệu}{111}{paragraph.2.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Mô hình hóa dữ liệu}{114}{subsubsection.2.2.1.4}%
+\contentsline {paragraph}{\numberline {2.2.1.4.1}Cấu hình cài đặt}{114}{paragraph.2.2.1.4.1}%
+\contentsline {paragraph}{\numberline {2.2.1.4.2}Hồi quy nhiệt độ trung bình ngày 'meantemp'}{115}{paragraph.2.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Kết luận}{118}{subsubsection.2.2.1.5}%
+\contentsline {subsection}{\numberline {2.2.2}Dữ liệu lượt khám chữa bệnh tỉnh Sóc Trăng}{118}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Giới thiệu bộ dữ liệu}{118}{subsubsection.2.2.2.1}%
+\contentsline {paragraph}{\numberline {2.2.2.1.1}Nguồn dữ liệu}{118}{paragraph.2.2.2.1.1}%
+\contentsline {paragraph}{\numberline {2.2.2.1.2}Mô tả dữ liệu}{118}{paragraph.2.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Phân tích dữ liệu}{119}{subsubsection.2.2.2.2}%
+\contentsline {paragraph}{\numberline {2.2.2.2.1}Thống kê dữ liệu}{119}{paragraph.2.2.2.2.1}%
+\contentsline {paragraph}{\numberline {2.2.2.2.2}Trực quan hóa dữ liệu}{120}{paragraph.2.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Mô hình hóa dữ liệu}{123}{subsubsection.2.2.2.3}%
+\contentsline {paragraph}{\numberline {2.2.2.3.1}Cấu hình cài đặt}{123}{paragraph.2.2.2.3.1}%
+\contentsline {paragraph}{\numberline {2.2.2.3.2}Hồi quy số lượng khám chữa bệnh ngày 'SO\_LUONG'}{124}{paragraph.2.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Kết luận}{127}{subsubsection.2.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.3}Dữ liệu giá chứng khoán Hòa Phát Group}{127}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Giới thiệu bộ dữ liệu}{127}{subsubsection.2.2.3.1}%
+\contentsline {paragraph}{\numberline {2.2.3.1.1}Nguồn dữ liệu}{127}{paragraph.2.2.3.1.1}%
+\contentsline {paragraph}{\numberline {2.2.3.1.2}Mô tả dữ liệu}{127}{paragraph.2.2.3.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Phân tích dữ liệu}{128}{subsubsection.2.2.3.2}%
+\contentsline {paragraph}{\numberline {2.2.3.2.1}Thống kê dữ liệu}{128}{paragraph.2.2.3.2.1}%
+\contentsline {paragraph}{\numberline {2.2.3.2.2}Trực quan hóa dữ liệu}{129}{paragraph.2.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Mô hình hóa dữ liệu}{133}{subsubsection.2.2.3.3}%
+\contentsline {paragraph}{\numberline {2.2.3.3.1}Cấu hình cài đặt}{133}{paragraph.2.2.3.3.1}%
+\contentsline {paragraph}{\numberline {2.2.3.3.2}Hồi quy giá đóng cửa 'GiaDongCua'}{134}{paragraph.2.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.4}Kết luận}{136}{subsubsection.2.2.3.4}%
+\contentsline {section}{\numberline {2.3}Dữ liệu dạng ảnh}{137}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}SIIM-FISABIO-RSNA COVID-19}{137}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}Giới thiệu bộ dữ liệu}{137}{subsubsection.2.3.1.1}%
+\contentsline {paragraph}{\numberline {2.3.1.1.1}Nguồn dữ liệu}{137}{paragraph.2.3.1.1.1}%
+\contentsline {paragraph}{\numberline {2.3.1.1.2}Mô tả dữ liệu}{137}{paragraph.2.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}Phân tích, trực quan hóa dữ liệu}{138}{subsubsection.2.3.1.2}%
+\contentsline {subsubsection}{\numberline {2.3.1.3}Mô hình hóa dữ liệu}{140}{subsubsection.2.3.1.3}%
+\contentsline {paragraph}{\numberline {2.3.1.3.1}Phân cụm sử dụng K-means}{140}{paragraph.2.3.1.3.1}%
+\contentsline {paragraph}{\numberline {2.3.1.3.2}Phân cụm sử dụng Spectral Clustering}{141}{paragraph.2.3.1.3.2}%
+\contentsline {paragraph}{\numberline {2.3.1.3.3}Phân cụm sử dụng Gaussian Mixture}{142}{paragraph.2.3.1.3.3}%
+\contentsline {subsection}{\numberline {2.3.2}Outdoor-fire dataset}{144}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Giới thiệu bộ dữ liệu}{144}{subsubsection.2.3.2.1}%
+\contentsline {paragraph}{\numberline {2.3.2.1.1}Nguồn dữ liệu}{144}{paragraph.2.3.2.1.1}%
+\contentsline {paragraph}{\numberline {2.3.2.1.2}Mô tả dữ liệu}{144}{paragraph.2.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Phân tích, trực quan hóa dữ liệu}{145}{subsubsection.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Mô hình hóa dữ liệu}{150}{subsubsection.2.3.2.3}%
+\contentsline {paragraph}{\numberline {2.3.2.3.1}Phân cụm sử dụng K-means}{150}{paragraph.2.3.2.3.1}%
+\contentsline {paragraph}{\numberline {2.3.2.3.2}Phân cụm sử dụng Spectral Clustering}{151}{paragraph.2.3.2.3.2}%
+\contentsline {paragraph}{\numberline {2.3.2.3.3}Phân cụm sử dụng Gaussian Mixture}{152}{paragraph.2.3.2.3.3}%
+\contentsline {chapter}{Tài liệu tham khảo}{156}{chapter*.154}%
+\contentsfinish 
